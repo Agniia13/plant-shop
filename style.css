@@ -1,0 +1,539 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+}
+
+.container {
+  width: 610px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.container1 {
+  justify-content: flex-end;
+  width: 672px;
+  flex-grow: 1;
+}
+
+.item2 {
+  width: 100%;
+  height: 380px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+
+.header-menu {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 55px;
+}
+
+.header-menu button {
+  border: none;
+  background-color: transparent;
+}
+
+.search button {
+  background-image: url(img/free-icon-search-814235.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 15px;
+  width: 15px;
+  height: 15px;
+  padding: 0;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.cart button {
+  background-image: url(img/free-icon-shopping-cart-6707699.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  width: 15px;
+  height: 15px;
+  padding: 0;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.sign-up button {
+  display: block;
+  width: 110px;
+  height: 35px;
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  color: #156963;
+  cursor: pointer;
+}
+
+.sign-in button {
+  width: 110px;
+  height: 35px;
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  background: #156963;
+  color: white;
+  cursor: pointer;
+}
+
+.sign-up button:hover {
+  background-color: rgb(233, 244, 236);
+}
+
+.sign-in button:hover {
+  background: #10524e;
+}
+
+.text-header {
+  margin-left: 77px;
+  justify-content: center;
+  padding-left: 72px;
+  padding-right: 72px;
+  padding-top: 110px;
+}
+.text-header h2 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  color: #156963;
+  width: 523px;
+}
+.text-header p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #2C1500;
+  opacity: 0.8;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  width: 493px;
+  margin-top: 24px;
+}
+
+.item3 {
+  width: 300px;
+  margin-right: 0px;
+  margin-left: auto;
+  margin-top: 0px;
+}
+
+.slider {
+  margin-left: 25px;
+  margin-top: 110px;
+}
+
+.sliders {
+  display: flex;
+  justify-content: flex-end;
+}
+.sliders div {
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 160px;
+}
+.sliders h3 {
+  text-align: center;
+}
+.sliders .white {
+  background-color: #fff;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  color: #156963;
+}
+.sliders .green {
+  background-color: #156963;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  color: #FFFFFF;
+}
+
+.item-info {
+  display: flex;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 140px;
+  justify-content: center;
+}
+
+[class*=block] {
+  border: 1px solid rgb(205, 199, 199);
+  height: 155px;
+  width: 270px;
+  margin-left: 30px;
+}
+[class*=block] h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  color: #156963;
+  padding-top: 22px;
+}
+[class*=block] p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  color: #2C1500;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 21px;
+}
+
+.block {
+  background-image: url(img/free-icon-logistics-delivery-truck-in-movement-46046.png);
+  background-position: 5% 10%;
+  background-repeat: no-repeat;
+  background-size: 60px;
+}
+
+.block1 {
+  background-image: url(img/free-icon-headphone-3756763.png);
+  background-position: 5% 10%;
+  background-repeat: no-repeat;
+  background-size: 50px;
+}
+.block1 h3 {
+  padding-top: 3px;
+}
+
+.block2 {
+  background-image: url(img/free-icon-plant-4733779.png);
+  background-position: 5% 10%;
+  background-repeat: no-repeat;
+  background-size: 43px;
+}
+
+.block3 {
+  background-image: url(img/free-icon-money-7873828.png);
+  background-position: 5% 10%;
+  background-repeat: no-repeat;
+  background-size: 55px;
+}
+
+.container3 {
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid rgb(205, 199, 199);
+}
+
+.featured-plants {
+  width: 85%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: black;
+  margin-left: 55px;
+  margin-top: 84px;
+}
+
+.all-menu-sort {
+  width: 130px;
+  height: 30px;
+  justify-content: flex-end;
+  margin-top: 80px;
+  position: relative;
+}
+
+.submenu-sort {
+  position: absolute;
+  z-index: 1;
+  list-style: none;
+  padding: 0;
+  list-style: none;
+}
+
+.menu-sort > li > a {
+  width: 130px;
+  height: 30px;
+  display: block;
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: black;
+  background-color: #fff;
+  border: 1px solid rgb(205, 199, 199);
+  padding: 5px 5px;
+  text-align: start;
+}
+
+.menu-sort > li > a:hover {
+  background-color: #fff;
+  color: #156963;
+}
+
+.submenu-sort > li > a {
+  width: 130px;
+  height: 30px;
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+  font-size: 12px;
+  background-color: #fff;
+  border: 1px solid rgb(205, 199, 199);
+  padding: 5px 5px;
+  display: none;
+}
+
+.submenu-sort > li > a:hover {
+  background-color: #fff;
+  color: #156963;
+  display: block;
+}
+
+.all-menu-sort:hover .submenu-sort > li > a {
+  display: block;
+}
+
+.container4 {
+  display: flex;
+  justify-content: center;
+}
+
+.product-list {
+  display: flex;
+  justify-content: center;
+}
+
+.about-product {
+  margin-right: 20px;
+  margin-top: 25px;
+  justify-content: center;
+}
+.about-product img {
+  background-color: rgb(244, 240, 240);
+  width: 217px;
+  height: 217px;
+}
+.about-product .product-title {
+  text-align: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: black;
+}
+.about-product .product-price {
+  text-align: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.container5 {
+  display: flex;
+  justify-content: center;
+}
+
+.about-plants h2 {
+  margin-top: 90px;
+  margin-left: 80px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  width: 520px;
+}
+.about-plants p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  width: 507px;
+  margin-left: 80px;
+  margin-top: 15px;
+}
+.about-plants img {
+  margin-left: 60px;
+  margin-top: 25px;
+}
+
+.photo-plant {
+  margin-left: 125px;
+  margin-top: 80px;
+  justify-content: flex-end;
+}
+
+.container6 {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.get-shop {
+  width: 800px;
+  height: 360px;
+  background-color: #F3F4F6;
+}
+.get-shop h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  padding-left: 100px;
+  padding-top: 90px;
+}
+.get-shop button {
+  margin-left: 100px;
+  border: 1px solid #156963;
+  width: 150px;
+  height: 40px;
+  background-color: #156963;
+  color: #fff;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+}
+.get-shop button:hover {
+  background: #10524e;
+}
+
+.footer {
+  display: flex;
+  border-top: 1px solid rgb(244, 240, 240);
+  margin-top: 80px;
+}
+
+.contacts h2 {
+  margin-left: 170px;
+  margin-top: 60px;
+  color: #156963;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+}
+.contacts h3 {
+  margin-top: 25px;
+  margin-left: 170px;
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+}
+.contacts p {
+  margin-left: 330px;
+  margin-top: 10px;
+  font-style: normal;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  width: 280px;
+  text-align: left;
+}
+
+.container8 h3 {
+  margin-left: 160px;
+  margin-top: 60px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+}
+.container8 p {
+  margin-top: 20px;
+  margin-left: 160px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.container9 h3 {
+  margin-left: 80px;
+  margin-top: 60px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+}
+.container9 p {
+  margin-top: 20px;
+  margin-left: 80px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.container10 h3 {
+  margin-left: 120px;
+  margin-top: 60px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.registration form {
+  margin-left: 120px;
+  border: 1px solid #F2F2F2;
+  border-radius: 2px;
+}
+.registration input {
+  background-color: transparent;
+  border: none;
+  padding: 8px 86px 8px 13px;
+}
+.registration button {
+  width: 50px;
+  height: 20px;
+  margin-top: 15px;
+  margin-left: 120px;
+  background-color: #156963;
+  border: 1px solid #156963;
+  border-radius: 2px;
+  text-align: center;
+  color: white;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 8px;
+  cursor: pointer;
+}
+.registration button:hover {
+  background: #10524e;
+}
+
+::-webkit-input-placeholder {
+  color: black;
+  opacity: 0.5;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+}/*# sourceMappingURL=style.css.map */
